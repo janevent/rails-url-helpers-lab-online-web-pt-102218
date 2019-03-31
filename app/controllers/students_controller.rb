@@ -12,6 +12,8 @@ class StudentsController < ApplicationController
   def activate 
     @student = Student.find(params[:id])
     
+    redirect show
+    
   end
 
   private
