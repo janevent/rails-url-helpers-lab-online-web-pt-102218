@@ -2,6 +2,6 @@ Rails.application.routes.draw do
   
   get 'students', to: 'students#index'
   
-  get 'students/:id', to: 
+  get 'students/:id', to: 'students#'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
