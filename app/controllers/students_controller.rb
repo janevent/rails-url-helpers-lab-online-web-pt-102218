@@ -12,7 +12,7 @@ class StudentsController < ApplicationController
   def activate 
     @student = Student.find(params[:id])
     
-    redirect show
+    redirect_to show
     
   end
 
