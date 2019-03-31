@@ -16,6 +16,7 @@ class StudentsController < ApplicationController
         redirect_to show
       elsif @student.active == true 
         @student.active = false 
+        redirect_to show
       end
     
     
