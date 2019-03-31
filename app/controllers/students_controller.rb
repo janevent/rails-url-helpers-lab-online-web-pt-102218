@@ -18,8 +18,6 @@ class StudentsController < ApplicationController
         @student.active = false 
         redirect_to show
       end
-    
-    
   end
 
   private
